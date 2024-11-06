@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family:"Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(top-view-of-desktop-background-phone-documents-coffee-folder-planner-glasses-paper-stationery-workplace-for-business-study-illustration-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    width: 420px;
+    background:transparent;
+    color: black;
+    border: 2px solid rgba(51, 47, 47, 0.2);
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 50px;
+    border: 2px solid rgba(40, 38, 38, 0.2);
+    font-size: 16px;
+    color:black;
+}
+.input input::placeholder{
+    color:black;
+    padding-left:20px ;
+}
+button{
+    width: 30%;
+    height:45px;
+    background-color: navy;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color:white;
+    margin-top: 20px;
+    margin-left: 140px;
+    cursor: pointer;
+}
